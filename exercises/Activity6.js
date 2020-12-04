@@ -20,10 +20,16 @@ const Activity6: () => React$Node = () => {
 const styles = StyleSheet.create({
   parent: {
     backgroundColor: 'whitesmoke',
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
   },
   child: {
     width: 80,
     height: 80,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
 

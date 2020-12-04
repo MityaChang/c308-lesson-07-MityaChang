@@ -3,7 +3,7 @@ import {View, Text, StyleSheet} from 'react-native';
 
 const Activity1: () => React$Node = () => {
   return (
-    <View style={styles.parent}>
+    <View style={[styles.parent, {flexDirection: 'row'}]}>
       <Text style={[styles.child, {backgroundColor: 'powderblue'}]}>
         Child One
       </Text>
